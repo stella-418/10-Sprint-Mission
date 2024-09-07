@@ -49,8 +49,7 @@ emailInputElement.addEventListener('focus', removeMessage)
 pwInputElement.addEventListener('blur', pwForm)
 pwInputElement.addEventListener('focus', removeMessage)
 
-// ----------------------------------------------------------
-
+//로그인 태그 선택
 const loginElement = document.querySelector("#login")
 
 function activateLogin(e){

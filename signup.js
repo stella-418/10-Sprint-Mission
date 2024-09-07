@@ -80,6 +80,8 @@ function pwValid(e) {
   };
 }
 
+
+//회원가입 활성화 비활성화
 function activateSignup(e){
   if(
     emailInputElement.classList.contains('error') 
